@@ -61,19 +61,19 @@ description: 建立由 YAML 驅動、可攜式單一檔案的 SOIL 互動 HTML �
 驗證互動 YAML：
 
 ```powershell
-python "<soil-html-deck-dir>\scripts\validate_interactive_spec.py" --spec .\spec.yaml
+python "<soil-html-deck-dir>/scripts/validate_interactive_spec.py" --spec ./spec.yaml
 ```
 
 將生成的素材嵌入最終 HTML：
 
 ```powershell
-python "<soil-html-deck-dir>\scripts\embed_assets.py" --template .\slides.template.html --output .\slides.html --asset COVER=.\assets\cover.png
+python "<soil-html-deck-dir>/scripts/embed_assets.py" --template ./slides.template.html --output ./slides.html --asset COVER=./assets/cover.png
 ```
 
 驗證最終獨立簡報：
 
 ```powershell
-python "<soil-html-deck-dir>\scripts\verify_html.py" --html .\slides.html --spec .\spec.yaml --strict-offline
+python "<soil-html-deck-dir>/scripts/verify_html.py" --html ./slides.html --spec ./spec.yaml --strict-offline
 ```
 
 ## 參考文件

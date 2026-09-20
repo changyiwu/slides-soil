@@ -49,13 +49,13 @@ description: 建立 SOIL 風格、以圖片為核心的教學簡報，每張投�
 驗證 YAML：
 
 ```powershell
-python "<soil-image-deck-dir>\scripts\validate_spec.py" --spec .\spec.yaml
+python "<soil-image-deck-dir>/scripts/validate_spec.py" --spec ./spec.yaml
 ```
 
 驗證生成圖片：
 
 ```powershell
-python "<soil-image-deck-dir>\scripts\verify_images.py" --spec .\spec.yaml --images-dir .\slides\images
+python "<soil-image-deck-dir>/scripts/verify_images.py" --spec ./spec.yaml --images-dir ./slides/images
 ```
 
 在 Codex 中，使用 Presentations skill 與 Artifact Tool 封裝。每張投影片嵌入一張滿版圖片，渲染匯出的 PPTX、檢查蒙太奇總覽，並執行溢位檢查。

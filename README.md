@@ -71,7 +71,7 @@ MIT License，詳見 [LICENSE](LICENSE)。
 
 ```powershell
 python -m pip install -r requirements-dev.txt
-python .\scripts\validate_all.py
+python ./scripts/validate_all.py
 ```
 
 驗證會檢查三套 Skill metadata、YAML、Python 語法、Markdown 連結、Image Deck 封裝 smoke test，以及 HTML 嵌入與嚴格離線 smoke test。
