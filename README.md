@@ -38,7 +38,7 @@
 安裝單一 Skill：
 
 ```powershell
-python "$HOME\.codex\skills\.system\skill-installer\scripts\install-skill-from-github.py" `
+python (Join-Path $HOME '.codex/skills/.system/skill-installer/scripts/install-skill-from-github.py') `
   --repo changyiwu/soil-deck-skills `
   --path skills/soil-image-deck
 ```
@@ -46,7 +46,7 @@ python "$HOME\.codex\skills\.system\skill-installer\scripts\install-skill-from-g
 安裝完整技能集：
 
 ```powershell
-python "$HOME\.codex\skills\.system\skill-installer\scripts\install-skill-from-github.py" `
+python (Join-Path $HOME '.codex/skills/.system/skill-installer/scripts/install-skill-from-github.py') `
   --repo changyiwu/soil-deck-skills `
   --path skills/soil-image-deck skills/soil-teaching-deck skills/soil-html-deck
 ```
