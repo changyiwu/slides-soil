@@ -39,7 +39,7 @@
 
 ```powershell
 python (Join-Path $HOME '.codex/skills/.system/skill-installer/scripts/install-skill-from-github.py') `
-  --repo changyiwu/soil-deck-skills `
+  --repo changyiwu/slides-soil `
   --path skills/soil-image-deck
 ```
 
@@ -47,7 +47,7 @@ python (Join-Path $HOME '.codex/skills/.system/skill-installer/scripts/install-s
 
 ```powershell
 python (Join-Path $HOME '.codex/skills/.system/skill-installer/scripts/install-skill-from-github.py') `
-  --repo changyiwu/soil-deck-skills `
+  --repo changyiwu/slides-soil `
   --path skills/soil-image-deck skills/soil-teaching-deck skills/soil-html-deck
 ```
 
@@ -79,7 +79,7 @@ python ./scripts/validate_all.py
 ## 專案維護
 
 - 專案工作規則請先閱讀 [`AGENTS.md`](AGENTS.md)。
-- 可寫入的 GitHub 遠端是 [changyiwu/soil-deck-skills](https://github.com/changyiwu/soil-deck-skills)，原始專案保留為 `upstream`。
+- 可寫入的 GitHub 遠端是 [changyiwu/slides-soil](https://github.com/changyiwu/slides-soil)，原始專案保留為 `upstream`。
 - 本機生成、預覽與驗證產物統一放在 `output/`，不納入 Git。
 - 專案未連結 Firebase，也未啟用 GitHub Pages 或其他部署。
 

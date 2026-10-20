@@ -1,4 +1,4 @@
-# soil-deck-skills（專案藍圖）
+# slides-soil（專案藍圖）
 
 > 本檔為跨 Agent 通用的專案藍圖（AGENTS.md 開放標準）。任何 Agent 的每個 session 都應先讀本檔＋`handoff.md`。
 
@@ -22,7 +22,7 @@
 ## 資料夾結構
 
 ```
-soil-deck-skills/
+slides-soil/
 ├─ skills/
 │  ├─ soil-image-deck/SKILL.md      # 圖片簡報 Skill
 │  ├─ soil-teaching-deck/SKILL.md   # 可編輯教學簡報 Skill
@@ -43,8 +43,8 @@ soil-deck-skills/
 | 層級 | 平台 | 位置 | 讀取時機 |
 |------|------|------|---------|
 | L1 | 本地（GDrive） | `AGENTS.md`＋`handoff.md` | 每個 session |
-| L2 | GitHub | origin：https://github.com/changyiwu/soil-deck-skills （公開）／upstream：`mathruffian-dot/soil-deck-skills` | 指定時 |
-| L3 | Obsidian | `soil-deck-skills/專案工作流程.md` | 有需要時 |
+| L2 | GitHub | origin：https://github.com/changyiwu/slides-soil （公開）／upstream：`mathruffian-dot/soil-deck-skills` | 指定時 |
+| L3 | Obsidian | `slides-soil/專案工作流程.md` | 有需要時 |
 
 > SOIL 理論來源（外部素材，唯讀）：`2ndbrain/01-Clippings/李俊儀-SOIL.md`。`01-Clippings/` 是外部輸入，除非使用者明確要求，不要改寫原始內容。
 
@@ -66,7 +66,7 @@ soil-deck-skills/
 - 修改共用檔案前先讀最新內容，避免覆蓋其他 Agent 的變更
 - 修改前先檢查 `git status`，保留不屬於目前任務的變更
 - 使用繁體中文撰寫說明文件；程式碼、YAML 欄位、版型 ID、命令與必要的英文提示詞保持原樣
-- 使用者要求 commit 或 push 時，預設直接提交並推送至 `changyiwu/soil-deck-skills` 的 `main`，不建立功能分支或 Pull Request；除非使用者當次另有指定
+- 使用者要求 commit 或 push 時，預設直接提交並推送至 `changyiwu/slides-soil` 的 `main`，不建立功能分支或 Pull Request；除非使用者當次另有指定
 - 推送前先抓取並確認 `origin/main` 沒有未整合的新變更，**不使用 force push**
 - `upstream` 只用來追蹤原始專案，**不作為預設推送目的地**，也勿動 `upstream/master`
 - 更新 Obsidian 專案筆記時，不要修改 `02-知識庫/log.md`
