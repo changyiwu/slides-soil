@@ -71,6 +71,7 @@ slides-soil/
 - `upstream` 只用來追蹤原始專案，**不作為預設推送目的地**，也勿動 `upstream/master`
 - 更新 Obsidian 專案筆記時，不要修改 `02-知識庫/log.md`
 - GDrive git 若遇 `FETCH_HEAD` 權限問題，設 `git config windows.appendAtomically=false`
+- **產出一律放 `output/`**：本專案產生的檔案或資料夾（成品、匯出、報表、生成圖、渲染等）預設放專案根目錄的 `output/`，不另開 `outputs/`、`exports/`、`generated/`、`out/` 之類的資料夾，方便找；`output/` 不進 git。部署工具指定的建置目錄（`dist/`、`build/`）不在此限
 
 ## 驗證規則
 
